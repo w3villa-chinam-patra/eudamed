@@ -32,7 +32,7 @@ def validate_xml(xml_file_path, xsd_file_path=None):
     # Resolve XSD file path
     if xsd_file_path is None:
         # Default to Message.xsd in the XSD schemas directory
-        xsd_path = script_dir / "XSD schemas" / "service" / "Message.xsd"
+        xsd_path = script_dir / "XSD_schemas" / "service" / "Message.xsd"
         print(f"XSD file path>>>>>>>>>>>>>>>.: {xsd_path}")
 
     else:
